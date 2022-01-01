@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>UDA-NetWork</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<style>
+
+h5{
+  margin-left: 30%;
+}
+form input{
+  height: 50px;
+  width: 500px;
+  border-radius: 20px;
+ 
+
+}
+a:hover {
+        color: green;
+        font-weight: bold;
+    }
+
+</style>
+<nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-between">
+  <a style="color: green; font-size: 25px; font-weight: bold;" class ="navbar-brand" href="#">ĐÔNG Á</a>
+    <form class="form-inline my-2 my-lg-0">
+      <input style="width: 900px;" class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  <div class="menu">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Trang chủ <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/profile">Góc sinh viên</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Trang cá nhân
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Thông tin</a>
+          <a class="dropdown-item" href="#">Cài đặt</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Đăng xuất</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Chat</a>
+      </li>
+    </ul>
+  </div>
+  
+</nav>
+</body>
+</html>
+
+</style>
+</body>
+<div class="container">
+  <h1 style="margin:0 auto; font-size: 20px;margin-left: 45%;">Trang Cá Nhân</h1>
+  <hr>
+</div>
+
+    <form action="/profile/add" method="POST" enctype="multipart/form-data" >
+        <h3 style="margin-left: 40%;">Thêm Thông Tin Cá Nhân</h3>
+<br>
+      <h5 style="margin-left: 44%;">Cập nhật ảnh đại diện</h5>  
+      <input style="margin-left: 40%;" type="file" name="avatar">
+      
+
+     <h5>Mã Sinh Viên:</h5><input style="margin-left: 35%;" type='text' name="masv" placeholder=" Nhập mã sinh viên"/>
+     <h5>Họ Và Tên:</h5><input style="margin-left: 35%;" type='text' name="hovaten" placeholder=" Nhập họ và tên"/><br>
+     <h5>Tuổi: </h5><input style="margin-left: 35%;" type='text' name="tuoi" placeholder=" Nhập Tuổi"/><br>
+     <h5>Lớp:</h5> <input style="margin-left: 35%; " type='text' name="lop" placeholder=" Nhập lớp"/><br>
+     <h5>Email: </h5><input style="margin-left: 35%; "type='text' name="email" placeholder=" Nhập email"/><br>
+     <h5>Địa Chỉ:</h5> <input style="margin-left: 35%; "type='text' name="diachi" placeholder=" Nhập địa chỉ"/><br>
+      <input  type="submit"  value="THÊM" style="margin-left:45%;margin-top: 30px; height: 50px;width: 150px;font-size: 20px  ;border-radius: 10px;"/>
+      </div>
+              </div>
+      <br>
+
+
+    </form>
+
+
+
+         
+      </div>
+     
+      
+     
+      
+      
+      
+       
+       
+      </body>
+      
+      </html>
